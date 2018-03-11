@@ -18,6 +18,7 @@ public class function {
     public void recurcividade() {
 
     }
+<<<<<<< HEAD
     
     public static double raiz(int valor, int index_raiz) {// o primeiro valor = radicando, e o segundo = index da raiz 
 
@@ -29,4 +30,6 @@ public class function {
            return Math.cbrt(valor); // retorna a raiz cubica
          */
     }
+=======
+>>>>>>> origin/master
 }

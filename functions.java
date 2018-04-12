@@ -18,7 +18,6 @@ public class function {
     public void recurcividade() {
 
     }
-<<<<<<< HEAD
     
     public static double raiz(int valor, int index_raiz) {// o primeiro valor = radicando, e o segundo = index da raiz 
 
@@ -30,6 +29,23 @@ public class function {
            return Math.cbrt(valor); // retorna a raiz cubica
          */
     }
-=======
->>>>>>> origin/master
+
+    public static int Contar_Casa_Decimal_Numero_Inteiro(int numero){
+    
+		int casas = 1;
+		while((numero = numero / 10) > 0){
+			casas++;
+		}
+		return casas;
+     }
+
+     public static double  Contar_Casa_Decimal_Numero_Decimal(double numero){
+    
+		int casas = 1;
+		while((numero = numero / 10.0) > 1){
+			casas++;
+		}
+		return casas;
+      }
+
 }
